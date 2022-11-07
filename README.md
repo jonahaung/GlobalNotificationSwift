@@ -1,7 +1,5 @@
 # GlobalNotificationSwift
 
-A description of this package.
-
 A system-wide notification center. This means that all notifications will be delivered to all interested observers, regardless of the process owner. GlobalNotificationCenter don't support userInfo payloads to the notifications. This wrapper is thread-safe.
 
 How to Installl
