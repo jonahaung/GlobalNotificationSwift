@@ -11,10 +11,4 @@ Install SwiftPackage at https://github.com/jonahaung/GlobalNotificationSwift
 // Posting 
 
             GlobalNotificationCenter.shared.postNotification(.customExternalAppDidFireNotification(customId: identifier))
-    
-// Receiving
-
- func customExternalNotificationHandler(_ globalNotification: GlobalNotification) {
-        // Do Something Here
-}
 
